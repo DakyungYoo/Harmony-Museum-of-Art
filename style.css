@@ -264,7 +264,7 @@ transform: translateY(-5px) rotate(-135deg);
     height: 80px;
     /*글씨를 나란히 정렬하고 가운데로 보내는 속성*/
     display: flex;
-    juspaginationtify-content: center;
+    justify-content: center;
 }
 
 .time_inner h3{
