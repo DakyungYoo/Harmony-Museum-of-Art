@@ -1285,7 +1285,7 @@ line-height: 10px;
     .adress h3{
         font-size: 6px;
         float: none;
-        padding: 0px 0px 10px 0px;
+        padding: 0px 0px 0px 0px;
     }   
     #footer{
         background: url(images/footer.png) no-repeat 50% 5%;
