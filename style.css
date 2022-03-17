@@ -595,7 +595,6 @@ transform: translateY(-5px) rotate(-135deg);
     padding-top: 20px;
     font-weight: 700;
     float: left;
-    width: 85%;
 }
 
 .w_box1 h4{
@@ -603,7 +602,10 @@ transform: translateY(-5px) rotate(-135deg);
     padding-top: 20px;
     font-weight: normal;
     float: right;
-    width: 13%;
+}
+
+.w_box1 h4 a{
+    padding-right: 28px;
 }
 
 .w_box1 p{
@@ -819,7 +821,7 @@ line-height: 10px;
     float: left;
     width: 32%;
     box-sizing: border-box;
-    padding: 80px 2% 0 0;
+    padding: 80px 1% 0 1%;
     margin-right: 2%;
     text-align: center;
     border: 3px solid #a0a0a0;
@@ -1070,7 +1072,6 @@ line-height: 10px;
 
   @media (max-width:1296px){
     .w_box1 h4 a{
-        background: none;
         display: block;
     } 
     .insta1, .insta2{
@@ -1121,16 +1122,6 @@ line-height: 10px;
     .bi{
         padding-right: 77px;
         padding-left: 100px;
-    }
-
-    #membership>div{
-        width: 80%;
-        margin-right: 0%;
-        margin-left: 10%;
-        margin-bottom: 5%;
-    }
-    #membership .member_inner3{
-        margin-right: 2%;
     }
   }
   
@@ -1296,6 +1287,17 @@ line-height: 10px;
         float: none;
         padding: 0px 0px 10px 0px;
     }   
+    #footer{
+        background: url(images/footer.png) no-repeat 50% 5%;
+    }
+
+    .tel h3 span{
+        display: none;
+    }
+
+    .adress h3 span{
+        display: none;
+    }
   }
 
 
@@ -1344,16 +1346,30 @@ line-height: 10px;
         #exhibition{
             margin-top: 40px;
         }
-
-        #membership>div>a>h2{
-            font-size: 19px;
-        }
-
-        #membership>div>a>h3{
-            font-size: 15px;
-        }
-    
   }
+
+  @media (min-width:649px) and (max-width:830px){
+    #membership>div>a>h2{
+        font-size: 19px;
+    }
+    
+    #membership>div>a>h3{
+        font-size: 15px;
+    }
+  }
+
+  @media (max-width:650px){
+    #membership>div{
+        width: 80%;
+        margin-right: 0%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    #membership .member_inner3{
+        margin-right: 2%;
+    }
+  }
+
 
   @media (max-width:610px){
     .contact h3{
@@ -1405,7 +1421,6 @@ line-height: 10px;
 
     .w_box1 h4{
         font-size: 14px;
-        width: 14%;
     }
     #plan>div{
         width: 100%;
@@ -1425,6 +1440,13 @@ line-height: 10px;
         width: 90%;
     }
 
+    #membership>div>a>h2{
+        font-size: 19px;
+    }
+
+    #membership>div>a>h3{
+        font-size: 15px;
+    }
   }
 
   @media (max-width:325px){
@@ -1435,7 +1457,6 @@ line-height: 10px;
 
     .w_box1 h4{
         font-size: 12px;
-        width: 15%;
     }
 
     .w_box1 p{
